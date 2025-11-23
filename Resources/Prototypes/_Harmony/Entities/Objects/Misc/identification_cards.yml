@@ -59,3 +59,18 @@
     job: ERPClown
   - type: Item
     heldPrefix: gold
+
+- type: entity
+  parent: IDCardStandard
+  id: CentCommInspectorIDCard
+  name: CentComm Inspector ID card
+  suffix: Harmony
+  components:
+  - type: Sprite
+    layers:
+    - state: centcom
+    - state: idcentcom
+  - type: PresetIdCard
+    job: CentCommInspector
+  - type: Item
+    heldPrefix: blue
