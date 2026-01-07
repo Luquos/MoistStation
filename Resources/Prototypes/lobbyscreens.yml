@@ -1,7 +1,11 @@
 - type: lobbyBackground
   id: SSXIV
   background: /Textures/LobbyScreens/ssxiv.webp
+  title: lobby-state-background-SSXIV-title
+  artist: lobby-state-background-SSXIV-artist
 
 - type: lobbyBackground
   id: MoistLobby
   background: /Textures/LobbyScreens/MoistLobbyArtActual.png
+  title: lobby-state-background-moist-title
+  artist: lobby-state-background-moist-artist
