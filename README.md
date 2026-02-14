@@ -1,8 +1,8 @@
 <div class="header" align="center">
-<img alt="Harmony Station" src="https://raw.githubusercontent.com/ss14-harmony/ss14-harmony/refs/heads/master/Resources/Textures/Logo/logo.png">
+<img alt="Eresos Station" src="https://raw.githubusercontent.com/LuquosTemp/MoistStation/refs/heads/master/Resources/Textures/Logo/logo.png">
 </div>
 
-Eresos is a fork of [Space Station 14](https://github.com/space-wizards/space-station-14). We aim to stay as close to vanilla SS14 as possible, while adding cosmetic changes that make Harmony our home, and features that enable MRP (medium roleplay) playstyle.
+Eresos is a fork of the [Harmony](https://github.com/ss14-harmony/ss14-harmony) fork of [Space Station 14](https://github.com/space-wizards/space-station-14). Differences from Harmony are for the most part pretty minimal.
 
 Space Station 14 is a remake of SS13 that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), a homegrown engine written in C#.
 
@@ -25,9 +25,7 @@ It also has lots of resources for new contributors to the project.
 
 ## Contributing
 
-We are happy to accept contributions from anybody. Get in Discord if you want to help and don't be afraid to ask for help either.
-
-Make sure to read our contributing guidelines in [CONTRIBUTING.md](/CONTRIBUTING.md) if you are new to Harmony!
+We are not looking for contributions from outside our playerbase at this time. Please consider contributing to Harmony or upstream instead.
 
 ## AI-generated contributions disclaimer
 This project does not accept low-effort or wholesale AI-generated contributions. Examples include, but are not limited to:
