@@ -1,0 +1,10 @@
+- files: ["decapoid.png"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Made by kipdotnet (github) for Impstation 14, colors adjusted by Absotively (github)"
+  source: "https://github.com/impstation/imp-station-14"
+
+
+- files: ["decapoid_fancy.png"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Made by widgetbeck (github) for Impstation 14, colors adjusted by Absotively (github)"
+  source: "https://github.com/impstation/imp-station-14"

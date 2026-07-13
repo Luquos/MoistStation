@@ -429,7 +429,7 @@
   id: FloorTileItemDecapoid
   components:
   - type: Sprite
-    sprite: _Impstation/Objects/Tiles/decapoid.rsi
+    sprite: _Moist/Objects/Tiles/decapoid.rsi   # Moist change
     state: decapoid
   - type: FloorTile
     outputs:
@@ -443,7 +443,7 @@
   id: FloorTileItemDecapoidFancy
   components:
   - type: Sprite
-    sprite: _Impstation/Objects/Tiles/decapoid.rsi
+    sprite: _Moist/Objects/Tiles/decapoid.rsi   # Moist change
     state: decapoid_fancy
   - type: FloorTile
     outputs:

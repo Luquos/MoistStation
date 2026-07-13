@@ -491,7 +491,7 @@
 - type: tile
   id: FloorDecapoid
   name: tiles-decapoid-floor
-  sprite: /Textures/_Impstation/Tiles/Misc/decapoid.png
+  sprite: /Textures/_Moist/Tiles/Misc/decapoid.png  # Moist change
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -503,7 +503,7 @@
 - type: tile
   id: FloorDecapoidFancy
   name: tiles-decapoid-floor-fancy
-  sprite: /Textures/_Impstation/Tiles/Misc/decapoid_fancy.png
+  sprite: /Textures/_Moist/Tiles/Misc/decapoid_fancy.png  # Moist change
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
