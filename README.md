@@ -72,6 +72,7 @@ Content under these subdirectories either originate from their respective fork, 
 
 | Subdirectory     | Fork Name           | Fork Repository                                         | License  |
 |------------------|---------------------|---------------------------------------------------------|----------|
+| `_Moist`         | Eresos              | https://github.com/Luquos/MoistStation                  | AGPL 3.0 |
 | `_Impstation`    | Impstation          | https://github.com/impstation/imp-station-14/           | AGPL 3.0 |
 | `_CD`            | Cosmatic Drift      | https://github.com/cosmatic-drift-14/cosmatic-drift     | MIT      |
 | `_Corvax`        | Corvax              | https://github.com/space-syndicate/space-station-14     | MIT      |
