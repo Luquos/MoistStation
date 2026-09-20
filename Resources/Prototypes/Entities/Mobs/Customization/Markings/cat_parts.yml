@@ -1,7 +1,9 @@
 - type: marking
   id: CatEars
-  bodyPart: Special
-  markingCategory: Special
+  # Moist change start
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  # Moist change end
   speciesRestriction: [Human]
   coloring:
     default:
