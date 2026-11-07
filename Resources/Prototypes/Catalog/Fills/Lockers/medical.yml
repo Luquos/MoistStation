@@ -113,13 +113,27 @@
   id: LockerFillChemistry
   table: !type:AllSelector
     children:
-    - id: PlasmaChemistryVial # Moist change - reverted Imp removal
     - id: ClothingEyesGlassesChemical
     - id: ChemBag
     - id: Dropper
+    # Moist Change Start
     - id: HandLabeler
-      prob: 0.5 # imp
-  # Imp start
+    #   prob: 0.5 # imp
+    - id: BarSpoon
+    - id: PlasmaChemistryVial
+    - id: BoxSyringe
+    - id: BoxBottle
+    - id: BoxVial
+    - id: BoxBeaker
+    - id: BoxPillCanister
+    - !type:GroupSelector # Remind chemists once in a while of alternate storage options
+      prob: 0.2
+      children:
+      - id: SprayBottle
+      - id: Bucket
+      - id: DrinkCartonMilk
+    # Moist Change End
+    # Imp start
     #- id: BarSpoon # Should be replaced by a stirring tool with medical theming, like a glass rod
     #- !type:AllSelector # The wonderful world of chemical storage
     #  children:
