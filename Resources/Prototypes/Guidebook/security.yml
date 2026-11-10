@@ -29,14 +29,15 @@
   name: guide-entry-guide-to-station-security
   text: "/ServerInfo/_Impstation/Guidebook/Security/GuideToStationSecurity.xml"
 
-- type: guideEntry
-  id: SpaceLaw
-  name: guide-entry-rules-space-law
-  text: "/ServerInfo/_Impstation/Guidebook/ServerRules/SpaceLaw/SpaceLaw.xml"
-  children:
-  - SpaceLawCrimeList
-
-- type: guideEntry
-  id: SpaceLawCrimeList
-  name: guide-entry-rules-sl-crime-list
-  text: "/ServerInfo/_Impstation/Guidebook/ServerRules/SpaceLaw/SLCrimeList.xml"
+# Moist change: comment out Imp changes that conflict with Harmony rules setup
+#- type: guideEntry
+#  id: SpaceLaw
+#  name: guide-entry-rules-space-law
+#  text: "/ServerInfo/_Impstation/Guidebook/ServerRules/SpaceLaw/SpaceLaw.xml"
+#  children:
+#  - SpaceLawCrimeList
+#
+#- type: guideEntry
+#  id: SpaceLawCrimeList
+#  name: guide-entry-rules-sl-crime-list
+#  text: "/ServerInfo/_Impstation/Guidebook/ServerRules/SpaceLaw/SLCrimeList.xml"
