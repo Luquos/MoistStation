@@ -116,32 +116,18 @@
     - id: ClothingEyesGlassesChemical
     - id: ChemBag
     - id: Dropper
-    # Moist Change Start
+    - id: PlasmaChemistryVial # Moist change
     - id: HandLabeler
-    #   prob: 0.5 # imp
-    - id: BarSpoon
-    - id: PlasmaChemistryVial
-    - id: BoxSyringe
-    - id: BoxBottle
-    - id: BoxVial
-    - id: BoxBeaker
-    - id: BoxPillCanister
-    - !type:GroupSelector # Remind chemists once in a while of alternate storage options
-      prob: 0.2
-      children:
-      - id: SprayBottle
-      - id: Bucket
-      - id: DrinkCartonMilk
-    # Moist Change End
-    # Imp start
+    #   prob: 0.5 # Moist change - imp kept this when upstream removed it, we re-removed it, it may be a merge issue on imp's end honestly
+  # Imp start
     #- id: BarSpoon # Should be replaced by a stirring tool with medical theming, like a glass rod
-    #- !type:AllSelector # The wonderful world of chemical storage
-    #  children:
-    #  - id: BoxSyringe
-    #  - id: BoxBottle
-    #  - id: BoxVial
-    #  - id: BoxBeaker
-    #  - id: BoxPillCanister
+    - !type:AllSelector # The wonderful world of chemical storage
+     children:
+     - id: BoxSyringe
+     - id: BoxBottle
+     - id: BoxVial
+     - id: BoxBeaker
+     - id: BoxPillCanister
     #  - !type:GroupSelector # Remind chemists once in a while of alternate storage options
     #    prob: 0.2
     #    children:
@@ -178,7 +164,7 @@
     - id: ClothingMaskSterile
     - id: HandheldGPSBasic
     - id: MedkitFilled
-      prob: 0.3
+      prob: 0.3 
     #- id: ClothingBeltMedicalEMTFilled
     #- id: JetInjector
     #- id: HandheldHealthAnalyzer
